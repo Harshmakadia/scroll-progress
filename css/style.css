@@ -1,0 +1,79 @@
+
+html {
+  color: #555555;
+  font-size: 1.25em;
+  line-height: 1.5;
+  background-color: #fefefe;
+}
+
+/*
+* Remove text-shadow in selection highlight: h5bp.com/i
+* These selection rule sets have to be separate.
+* Customize the background color to match your design.
+*/
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+* A better looking default horizontal rule
+*/
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.chapter-name {
+  margin-bottom: 0;
+}
+
+.vh{
+  height: 100vh;
+}
+
+.chapter-no {
+  font-size: 1em;
+  margin: 0 0 3em 0;
+  line-height: 1.5;
+  color: #9E9E9E;
+}
+
+p {
+  font-family: 'Gaegu', cursive;
+  margin: 0 0 1.5em 0;
+  font-size: 30px;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Gaegu', cursive;
+}
+
+#main {
+  padding: 6em 10%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+@media(min-width: 700px) {
+  #main {
+    padding: 6em 20%;
+  }
+}
+
+@media(min-width: 1300px) {
+  #main {
+    padding: 6em 25%;
+  }
+}
